@@ -4,9 +4,9 @@ using Avalonia.Markup.Xaml;
 
 namespace easyplan.Views;
 
-public partial class ToDoList : UserControl
+public partial class ToDoListView : UserControl
 {
-    public ToDoList()
+    public ToDoListView()
     {
         InitializeComponent();
     }
