@@ -1,0 +1,18 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="easyplan.Views.ToDoList">
+    <DockPanel LastChildFill="True">
+        <Border Height="25" Background="SkyBlue" BorderBrush="#2a2438" BorderThickness="1" DockPanel.Dock="Top">
+            <TextBlock Foreground="Black">Dock = "kdl;ffdl;kafdsa';kl"</TextBlock>
+        </Border>
+        <Border Width="200" Background="PaleGreen" BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Right">
+            <TextBlock Foreground="Black">Dock = "Right"</TextBlock>
+        </Border>
+        <Border Background="#352f44" BorderBrush="Black" BorderThickness="1">
+            <TextBlock Foreground="#dbd8e3">This content will "Fill" the remaining space</TextBlock>
+        </Border>
+    </DockPanel>
+</UserControl>
